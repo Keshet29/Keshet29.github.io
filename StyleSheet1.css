@@ -84,7 +84,7 @@ body {
 /*fonts*/
 @font-face {
     font-family: 'dripFont';
-    src: url('../font/horrornightdrip-k7jap-webfont.woff') format('woff');
+    src: url('horrornightdrip-k7jap-webfont.woff') format('woff');
 }
 
 .fontclass {
