@@ -12,6 +12,11 @@
             margin: 150px;
         }
     </style>
+        <script>
+        function clues() {
+            clue.innerHTML = "שלום, כדי להיכנס לאתר (לא להירשם) ולצפות בתוכן יחודי לרשומים ניתן להיכנס כאחת הדמויות מהסדרה. אחת הדמויות השאירה את שם המשתמש והסיסמה שלה ללא השגחה בעמוד המספר עליה.";
+        }
+    </script>
 </head>
 <body>
 
@@ -40,6 +45,8 @@
         </li>
     </ul>
     <h1 class="fontclass title">sign up / log in</h1>
+    <button style=" margin: 0px; height:50px; width: 150px; " onclick="clues()">לחץ כאן כדי לקבל רמז</button>
+    <div id="clue"></div>
     <img src="heart.png" class="logo" style="width:100px;height:100px;" />
     <button onclick="location.href='HtmlPage10.html'"><img style="height:150px; width:300px;" src="signup_eng.png" /></button>
     <button onclick="location.href='HtmlPage11.html'"><img style="height:150px; width:300px;" src="login_eng.png" /></button>
